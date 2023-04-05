@@ -64,8 +64,6 @@ body {
 }
 .container-banner div{
     width: 470px;
-    position: absolute;
-    left: 0;
 }
 
 .container-banner div p {
@@ -85,4 +83,72 @@ body {
     position: absolute;
     top: 100px;
     right: 0;
+}
+
+/* Seção preços */
+
+.secao-precos{
+    background-color: #233032;
+}
+
+.container-precos{
+    padding: 40px 0px;
+    position: relative;
+}
+
+.container-precos h2{
+    margin: 0;
+    color: #fff;
+}
+
+.container-precos p{
+    color: #fff;
+}
+
+.botao-precos{
+    background-color: #2f86d6;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    padding: 10px;
+}
+
+.botao-precos a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Seção informacoes */
+.secao-informacoes{
+    padding: 100px 0px;
+}
+
+.container-informacoes .titulo-secao{
+    text-align: center;
+}
+
+.container-informacoes .titulo-secao span{
+    color: #2f86d6;
+}
+
+.container-informacoes img{
+    width: 200px
+}
+
+.informacao{
+    position: relative;
+    max-width: 340px;
+    text-align: center;
+}
+
+.card2{
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+
+.card3{
+    position:absolute;
+    left:0px;
+    top: 0;
 }
