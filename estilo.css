@@ -52,17 +52,18 @@ body {
 
 /* Banner da página */
 
-.secao-banner{
+.secao-banner {
     background-color: #2f86d6;
 }
 
-.container-banner{
+.container-banner {
     margin: auto;
     color: #fff;
     position: relative;
     padding: 180px 0px;
 }
-.container-banner div{
+
+.container-banner div {
     width: 470px;
 }
 
@@ -87,25 +88,25 @@ body {
 
 /* Seção preços */
 
-.secao-precos{
+.secao-precos {
     background-color: #233032;
 }
 
-.container-precos{
+.container-precos {
     padding: 40px 0px;
     position: relative;
 }
 
-.container-precos h2{
+.container-precos h2 {
     margin: 0;
     color: #fff;
 }
 
-.container-precos p{
+.container-precos p {
     color: #fff;
 }
 
-.botao-precos{
+.botao-precos {
     background-color: #2f86d6;
     position: absolute;
     top: 30%;
@@ -113,42 +114,192 @@ body {
     padding: 10px;
 }
 
-.botao-precos a{
+.botao-precos a {
     text-decoration: none;
     color: #fff;
 }
 
 /* Seção informacoes */
-.secao-informacoes{
+.secao-informacoes {
     padding: 100px 0px;
 }
 
-.container-informacoes .titulo-secao{
+.container-informacoes .titulo-secao {
     text-align: center;
 }
 
-.container-informacoes .titulo-secao span{
+.container-informacoes .titulo-secao span {
     color: #2f86d6;
 }
 
-.container-informacoes img{
+.container-informacoes img {
     width: 200px
 }
 
-.informacao{
+.informacao {
     position: relative;
     max-width: 340px;
     text-align: center;
 }
 
-.card2{
+.card2 {
     position: absolute;
-    left: 400px;
+    left: 450px;
     top: 0;
 }
 
-.card3{
-    position:absolute;
-    left:0px;
+.card3 {
+    position: absolute;
+    left: 800px;
     top: 0;
+}
+
+/* seção tabela */
+.container-banner
+
+.container-planos {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.tabela{
+    margin: 50px auto;
+    width: 650px;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+.titulo-tabela{
+    text-align: center;
+    line-height: 40px;
+}
+
+.titulo-tabela span{
+    color: #2f86d6;
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin-bottom: 20px;
+}
+
+table thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+
+.impar{
+    background-color: #f6f6f6;
+}
+
+.par{
+    background-color: #fff;
+}
+
+/* container precos 2 */
+
+.secao-precos2 {
+    background-color: #2f86d6;
+}
+
+.container-precos2 {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.container-precos2 h2 {
+    margin: 0;
+    color: #fff;
+    max-width: 550px;
+    text-align: justify;
+}
+
+.container-precos2 p {
+    color: #fff;
+}
+
+.botao-precos2 {
+    background-color: #233032;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    padding: 10px;
+}
+
+.botao-precos2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* seção footer */
+.container-footer {
+    position: relative;
+    padding: 35px 0px;
+}
+
+.container-footer img{
+    width: 80px;
+    position: absolute;
+    left: 30%;
+}
+
+.texto-logo{
+   text-align: center;
+}
+
+.texto-logo h2{
+    margin: 0px;
+}
+
+.texto-logo p{
+    margin: 0px 0px 30px 0px;
+}
+
+.texto-logo span{
+    color: #2f86d6;
+}
+
+
+.texto-footer{
+    text-align: center;
+}
+
+.secao-desenvolvido{
+    background-color: #233032;
+}
+
+.container-desenvolvido{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.container-desenvolvido p {
+    color: #f6f6f6;
+    margin: 0;
+}
+
+.container-desenvolvido span{
+    color: #2f86d6;
 }
