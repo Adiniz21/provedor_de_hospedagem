@@ -1,3 +1,4 @@
+/* Globais */
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +13,10 @@ body {
 }
 
 /* Topo da página */
+.secao-logo{
+    background-color: #2f86d6;
+}
+
 .container-topo {
     position: relative;
     padding: 35px 0px;
@@ -36,7 +41,7 @@ body {
 }
 
 .topo-logo p {
-    color: #2f86d6;
+    color: #f6f6f6;
     font-weight: 600;
     margin: 0px;
 }
@@ -52,115 +57,11 @@ body {
     padding: 0px 10px;
     text-decoration: none;
     font-weight: 600;
-    color: #233032;
+    color: #f6f6f6;
 }
 
-/* Banner da página */
-
-.secao-banner {
-    background-color: #2f86d6;
-}
-
-.container-banner {
-    margin: auto;
-    color: #fff;
-    position: relative;
-    padding: 180px 0px;
-}
-
-.container-banner div {
-    width: 470px;
-}
-
-.container-banner div p {
-    font-size: 16px;
-    line-height: 26px;
-    word-spacing: 3px;
-}
-
-.container-banner div h2 {
-    font-size: 28px;
-    line-height: 40px;
-    margin: 20px 0px;
-}
-
-.container-banner img {
-    width: 50%;
-    position: absolute;
-    top: 100px;
-    right: 0;
-}
-
-/* Seção preços */
-
-.secao-precos {
-    background-color: #233032;
-}
-
-.container-precos {
-    padding: 40px 0px;
-    position: relative;
-}
-
-.container-precos h2 {
-    margin: 0;
-    color: #fff;
-}
-
-.container-precos p {
-    color: #fff;
-}
-
-.botao-precos {
-    background-color: #2f86d6;
-    position: absolute;
-    top: 30%;
-    right: 0;
-    padding: 10px;
-}
-
-.botao-precos a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* Seção informacoes */
-.secao-informacoes {
-    padding: 100px 0px;
-}
-
-.container-informacoes .titulo-secao {
-    text-align: center;
-}
-
-.container-informacoes .titulo-secao span {
-    color: #2f86d6;
-}
-
-.container-informacoes img {
-    width: 200px
-}
-
-.informacao {
-    position: relative;
-    max-width: 340px;
-    text-align: center;
-}
-
-.card2 {
-    position: absolute;
-    left: 450px;
-    top: 0;
-}
-
-.card3 {
-    position: absolute;
-    left: 800px;
-    top: 0;
-}
 
 /* seção tabela */
-.container-banner
 
 .container-planos {
     padding: 40px 0px;
@@ -207,7 +108,7 @@ table thead th p {
 
 table tbody td {
     width: 250px;
-    max-width: 1024px;
+    max-width: 2048px;
     text-align: center;
     font-weight: 500;
     padding: 15px;
@@ -222,42 +123,20 @@ table tbody td {
     background-color: #fff;
 }
 
-/* container precos 2 */
+.marcador-azul {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  background-color: #2f86d6;
+  border-radius: 100px;
+}
 
-.secao-precos2 {
+
+/* seção footer */
+.secao-footer{
     background-color: #2f86d6;
 }
 
-.container-precos2 {
-    padding: 40px 0px;
-    position: relative;
-}
-
-.container-precos2 h2 {
-    margin: 0;
-    color: #fff;
-    max-width: 550px;
-    text-align: justify;
-}
-
-.container-precos2 p {
-    color: #fff;
-}
-
-.botao-precos2 {
-    background-color: #233032;
-    position: absolute;
-    top: 30%;
-    right: 0;
-    padding: 10px;
-}
-
-.botao-precos2 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/* seção footer */
 .container-footer {
     position: relative;
     padding: 35px 0px;
@@ -282,7 +161,7 @@ table tbody td {
 }
 
 .texto-logo span{
-    color: #2f86d6;
+    color: #f6f6f6;
 }
 
 
